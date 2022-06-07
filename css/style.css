@@ -112,9 +112,10 @@ img {
     color: var(--accent-color);
 }
 
-.nav-link:current {
-    color: var(--accent-color);
-}
+    .current {
+            color: var(--accent-color);
+        }
+
 .nav-contact-list-item {
     display: flex;
     margin-left: auto;
@@ -138,7 +139,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--primary-color);
 }
-.nav-contact-link:hover
+.nav-contact-link:hover,
 .nav-contact-link:focus{
 color: var(--accent-color);
 }
@@ -370,9 +371,9 @@ flex-wrap: wrap;
 }
 .footer-adres-item {
     margin-top: 20px;
-    font-style: inherit;
+    font-style: normal;
 }
-.footer-address-item:not(:last-child) {
+.footer-adres-item:not(:last-child) {
     margin-bottom: 9px;}
 .footer-contact {
     font-size: 14px;
