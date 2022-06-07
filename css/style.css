@@ -138,11 +138,12 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--primary-color);
 }
-
-.nav-contact:hover,
-.nav-contact:focus {
-    color: var(--accent-color)
+.nav-contact-link:hover
+.nav-contact-link:focus{
+color: var(--accent-color);
 }
+
+
 
 
 /*Hero section*/
@@ -155,7 +156,7 @@ text-decoration: none;
 .overlay {
     max-width: 1600px;
     height: 600px;
-    margin: o auto;
+    margin: 0 auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -291,6 +292,7 @@ flex-wrap: wrap;
     margin-right: 10px;
 }
 .social-links-list-item {
+    margin-top: 16px;
     width: 44px;
     height: 44px;
 }
@@ -366,7 +368,7 @@ flex-wrap: wrap;
 .logo-studio {
     color: var(--bg-color);
 }
-.footer-address {
+.footer-adres-item {
     margin-top: 20px;
     font-style: inherit;
 }
@@ -385,8 +387,9 @@ flex-wrap: wrap;
     color: var(--accent-color);
 }
 
-.post-address {
+.post-adres {
     color: var(--bg-color);
+    font-style: normal;
 }
 .footer-title {
     margin-bottom: 20px;
