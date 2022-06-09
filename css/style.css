@@ -357,7 +357,6 @@ flex-wrap: wrap;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2F303A;
-
 }
 .container-flex {
     display: flex;
@@ -365,7 +364,6 @@ flex-wrap: wrap;
 }
 .footer-left-side {
     margin-right: 70px;}
-
 .logo-studio {
     color: var(--bg-color);
 }
